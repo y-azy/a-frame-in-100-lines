@@ -19,7 +19,7 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1',
   },
   input: {
-    text: 'Tell me a story of a Toad God fullfilling the toby prophecy',
+    text: 'Tell me the story of Toad God fullfilling $toby prophecy',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
@@ -41,6 +41,9 @@ export default function Page() {
   return (
     <>
       <h1>Live Life</h1>
+      <p>
+        LFB $toby
+      </p>
     </>
   );
 }
