@@ -19,7 +19,7 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1',
   },
   input: {
-    text: 'Tell me a story',
+    text: 'Tell me a story of a Toad God fullfilling the toby prophecy',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>Live Life</h1>
     </>
   );
 }
